@@ -1,0 +1,54 @@
+* {
+    box-sizing: inherit;
+}
+
+:root {
+    --primary-color: #FF9063;
+    --text-color: #333;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.align-item-center {
+    align-items: center!important;
+}
+
+.space-between {
+    justify-content: space-between!important;
+}
+
+.content-center {
+    justify-content: center!important;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.overlay {
+    background-color: rgba(255, 133, 83, .3);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: all .5s;
+}
+
+.mt-24 {
+    margin-top: 24px!important;
+}
